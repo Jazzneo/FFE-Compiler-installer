@@ -158,20 +158,3 @@ origin = https://github.com/Jazzneo/FFE-Compiler-installer.git):
     cd github
     git push -u origin main
 
-Then, on GitHub:
-
-  1. Settings -> Pages -> Build and deployment -> Deploy from a branch ->
-     main / (root). The .nojekyll file keeps the folder served verbatim.
-     The page appears at https://jazzneo.github.io/FFE-Compiler-installer/
-
-  2. Releases -> Draft a new release -> tag v1.0, then attach
-     dist/FFE-Compiler-Installer-1.0.zip and dist/SHA256SUMS and publish.
-     Keep the zip out of git: it is under GitHub's 100 MB per-file limit but
-     well over the 50 MB warning line.
-
-The page's download button points at:
-https://github.com/Jazzneo/FFE-Compiler-installer/releases/latest/download/FFE-Compiler-Installer-1.0.zip
-which resolves only once the release asset has exactly that filename.
-
-If you would rather host the zip in the repo instead of a release, upload it
-and change that one link in index.html.
