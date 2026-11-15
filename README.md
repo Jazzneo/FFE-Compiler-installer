@@ -1,6 +1,6 @@
 # FFE Compiler
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-3da639)](LICENSE.txt)
+[![License: MIT]([https://img.shields.io/badge/license-MIT-3da639](https://github.com/Jazzneo/FFE-Compiler-installer/blob/main/LICENSE))](LICENSE.txt)
 [![Platform: Linux](https://img.shields.io/badge/platform-Linux-7fd3f7)](#requirements)
 [![Requires: your own ROM](https://img.shields.io/badge/requires-your%20own%20ROM-e3bf6a)](#requirements)
 
