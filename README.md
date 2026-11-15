@@ -8,7 +8,6 @@ textures and the enemy-range mod — from one window.**
 
 No game data. No saves. Your ROM, your machine, one button.
 
-![The FFE Compiler window](screenshot.jpg)
 
 ## Download
 
