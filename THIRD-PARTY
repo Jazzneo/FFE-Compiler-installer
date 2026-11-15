@@ -1,0 +1,30 @@
+FFE Compiler — third-party components
+=====================================
+
+FFE Compiler itself is MIT licensed; see LICENSE.txt. The complete list, down to every
+Rust crate and font, is in CREDITS.md (and CREDITS.txt in the download).
+
+It builds on, and its download contains, the work of others:
+
+zakuro — the 3DS emulator this game runs on
+  MIT License, Copyright (c) 2026 fearkov
+  Source: bundled in the installer at bundle/zakuro/
+  License: bundle/zakuro/LICENSE (also installed beside the game)
+
+3dsrecomp — the recompiler that turns the ROM into native code
+  MIT License, Copyright (c) 2026 fearkov
+  Source: https://github.com/fearkov/3dsrecomp
+  The installer ships a build of it at bundle/3dsrecomp
+
+The HD texture artwork, the installer window and the build pipeline were made
+for this project.
+
+Not covered by this license:
+
+  * Final Fantasy Explorers and Final Fantasy are trademarks of Square Enix.
+    No game data, ROM, extracted assets or saves are distributed with this
+    project; you must own the game to use it.
+  * Any ROM you recompile, and anything the recompiler generates from it,
+    remains subject to the rights in that game.
+  * Fonts and other assets vendored for texture packs keep their own licenses,
+    which sit beside them in the asset folders.
